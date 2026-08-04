@@ -52,6 +52,85 @@ I built **MindDock** to gain hands-on experience with the core concepts behind m
 
 ## Folder structure
 
+### Frontend
+
+### Backend
+
+- src
+  - index.ts
+- .env
+- .env.local
+- package.json
+- tsconfig.json
+
+## Setup
+
+### Backend
+
+**typescript setup**
+
+- npm i -D typescript @types/node @types/express tsx
+- npx tsc --init (for creating the tsconfig.json)
+
+```bash
+{
+  "compilerOptions": {
+    /* Language */
+    "target": "ES2022",
+    "lib": ["ES2022"],
+
+    /* Modules */
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    /* Project structure */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Type checking */
+    "strict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    /* Interoperability */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Node */
+    "types": ["node"],
+
+    /* Output */
+    //"sourceMap": true,
+    //"declaration": true,
+    //"declarationMap": true,
+
+    /* Performance */
+    "skipLibCheck": true,
+
+    /* Consistency */
+    "forceConsistentCasingInFileNames": true,
+
+    /* Build */
+    "incremental": true
+  },
+
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
+
+```
+
+- ts related scripts in package.json:
+  1. "dev" : "tsx watch src/index.ts"
+  2. "build" : "tsc"
+  3. "start" : "node dis/index.js"
+
+## patterns used
+
+- Environment Configuration Validation Pattern / Schema-based environment validation
+
 ## Roadmap
 
 ## what I learned
