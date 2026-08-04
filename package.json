@@ -1,0 +1,20 @@
+{
+  "name": "minddock",
+  "version": "1.0.0",
+  "description": "minddock is an AI-powered workspace that allows users to interact with their own data from multiple sources through natural conversations.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvchotu68/mindDock.git"
+  },
+  "author": "Aravind",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvchotu68/mindDock/issues"
+  },
+  "homepage": "https://github.com/rvchotu68/mindDock#readme"
+}
