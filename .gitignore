@@ -7,6 +7,17 @@
 /.pnp
 .pnp.js
 
+# prisma
+
+.agents/
+.claude/
+.windsurf/
+
+# temp
+
+frontend/
+
+
 # testing
 /coverage
 

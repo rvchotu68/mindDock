@@ -65,7 +65,7 @@ I built **MindDock** to gain hands-on experience with the core concepts behind m
 
 ## Setup
 
-### Backend
+### **Backend**
 
 **typescript setup**
 
@@ -127,9 +127,28 @@ I built **MindDock** to gain hands-on experience with the core concepts behind m
   2. "build" : "tsc"
   3. "start" : "node dis/index.js"
 
+**prisma setup**
+
+- npm i @primsa/clinet prisma @prisma/adapter-pg pg
+- npx prisma init
+- npx prisma generate
+- npx primsa migrate dev --name migration_name(for development use)
+
+### **Frontend**
+
+**nextjs setup**
+
+- npx create-next-app@latest .
+
+**shadcn**
+npx shadcn@latest init --preset b3vYhM4MBU --template next --pointer
+
+npx shadcn@latest add and press "a" to select all components and enter
+
 ## patterns used
 
-- Environment Configuration Validation Pattern / Schema-based environment validation
+- Environment Configuration Validation Pattern / Schema-based environment validation for env variables (env.ts)
+- Singleton pattern for prisma client (db.ts)
 
 ## Roadmap
 
