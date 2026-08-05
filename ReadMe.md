@@ -131,8 +131,13 @@ I built **MindDock** to gain hands-on experience with the core concepts behind m
 
 - npm i @primsa/clinet prisma @prisma/adapter-pg pg
 - npx prisma init
-- npx prisma generate
-- npx primsa migrate dev --name migration_name(for development use)
+- npx prisma generate (Run this command whenever changes are made to the schema.prisma file)
+- npx primsa migrate dev --name migration_name(for development use) -> this for creating or updating the table in the database.
+
+**better-auth setup**
+
+- npm install better-auth
+- npx auth@latest generate
 
 ### **Frontend**
 

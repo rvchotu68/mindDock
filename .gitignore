@@ -7,6 +7,9 @@
 /.pnp
 .pnp.js
 
+# testing
+/coverage
+
 # prisma
 
 .agents/
@@ -16,10 +19,6 @@
 # temp
 
 frontend/
-
-
-# testing
-/coverage
 
 # next.js
 /.next/
